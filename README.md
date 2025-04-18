@@ -64,9 +64,11 @@ function moonlightScanScore(txRestriction, feePresence, renounceStatus) {
   return risk >= 2 ? "⚠️ Suspicious flags detected" : "Clean";
 }
 ```
-txRestriction = Sell restrictions (honeypot)
-feePresence = High swap fee (>10%)
-renounceStatus = Contract ownership renounced or not
+txRestriction = Sell restrictions (honeypot);
+
+feePresence = High swap fee (>10%);
+
+renounceStatus = Contract ownership renounced or not;
 
 
 2. 📊 AI Risk Pattern
@@ -84,9 +86,11 @@ function aiRiskPatternScore(txCount, liquidityEvents, ownerChangeCount) {
   return "High";
 }
 ```
-txCount = Number of transactions
-liquidityEvents = Liquidity pool manipulations
-ownerChangeCount = Number of owner changes
+txCount = Number of transactions;
+
+liquidityEvents = Liquidity pool manipulations;
+
+ownerChangeCount = Number of owner changes;
 
 
 3. 🌑 On-chain Shadows
@@ -100,8 +104,9 @@ function shadowLinkedWallets(totalTransfers, uniqueWallets) {
   return `${Math.floor(uniqueWallets * 0.1)} linked wallets`;
 }
 ```
-totalTransfers = Total token transfers
-uniqueWallets = Number of unique wallets
+totalTransfers = Total token transfers;
+
+uniqueWallets = Number of unique wallets;
 
 
 4. 💠 MoonTrust Score (0-100)
@@ -119,7 +124,7 @@ function moonTrustScore(moonlight, riskLevel, linkedCount) {
   return Math.max(score, 0);
 }
 ```
-Combines the results of the Moonlight Scan, AI Risk, and linked wallets
+Combines the results of the Moonlight Scan, AI Risk, and linked wallets;
 
 ---
 ## **⚠️ Disclaimer**
