@@ -71,7 +71,7 @@ feePresence = High swap fee (>10%);
 renounceStatus = Contract ownership renounced or not;
 
 
-2. 📊 AI Risk Pattern
+### 2. 📊** AI Risk Pattern**
 Predicts the risk level of a token based on transaction history and token behavior.
 
 ```javascript
@@ -93,7 +93,7 @@ liquidityEvents = Liquidity pool manipulations;
 ownerChangeCount = Number of owner changes;
 
 
-3. 🌑 On-chain Shadows
+### 3. 🌑 **On-chain Shadows**
 Tracks how many linked wallets have interacted with the token.
 
 ```javascript
@@ -109,7 +109,7 @@ totalTransfers = Total token transfers;
 uniqueWallets = Number of unique wallets;
 
 
-4. 💠 MoonTrust Score (0-100)
+### 4. 💠** MoonTrust Score (0-100)**
 An aggregated trust score that combines the Moonlight Scan, AI Risk Pattern, and linked wallets data.
 
 ```javascript
