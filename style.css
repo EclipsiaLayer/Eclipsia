@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 600px;
+  background: url("background.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  color: #F59E0B;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #F59E0B;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #F9F9F9;
+  background: transparent;
+  color: #F9F9F9;
+  margin-bottom: 12px;
+  width: 90%;
+  text-align: center;
+}
+
+
+.result-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.label {
+  color: #F59E0B;
+  font-weight: 500;
+}
+
+.value {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+
+.disclaimer {
+  font-size: 10px;
+  margin-top: 12px;
+  text-align: center;
+  color: #F59E0B;
+}
